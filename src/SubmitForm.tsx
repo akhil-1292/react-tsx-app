@@ -29,6 +29,7 @@ function SubmitForm() {
         placeholder="password"
       />
       <button type="submit">Save</button>
+      <button type ="button">text click</button>
 
     </form>
   )
