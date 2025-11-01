@@ -31,7 +31,7 @@ const ToDo = () => {
                 }
             </ul>
             <form onSubmit={handleTask}>
-                <input type="text" onChange={handleChange} placeholder="enter the taskname"/>
+                <input type="text" onChange={handleChange} placeholder="enter your taskname"/>
                 <button type="submit">ADD Task</button>
             </form>
         </>
