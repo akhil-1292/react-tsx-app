@@ -28,9 +28,8 @@ function SubmitForm() {
         onChange={handleChange}
         placeholder="password"
       />
-      <button type="submit">Save</button>
+      <button type="submit">Save button</button>
       <button type ="button">text click</button>
-
     </form>
   )
 }
