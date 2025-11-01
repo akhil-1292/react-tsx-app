@@ -26,7 +26,7 @@ const ToDo = () => {
         <>
             <ul>
                 {tasklist.map((task)=>(
-                    <li>{task.id}  {task.text}  {task.done ? "completed" : "not Completed"}</li>
+                    <li>{task.id}  {task.text}  {task.done ? "completed" : "not Completed Yet"}</li>
                 ))
                 }
             </ul>
